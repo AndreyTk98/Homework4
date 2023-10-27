@@ -17,7 +17,7 @@ public class Dog extends Animals {
     }
 
     public String Swim(double swim, String name){
-        String massage = null;
+        String massage;
         if (swim <= 10){
             massage =name + " проплыл: " + swim + "м";
         } else {
